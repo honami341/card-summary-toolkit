@@ -1,0 +1,21 @@
+{
+  "name": "card-summary",
+  "version": "0.1.0",
+  "description": "Create readable card-style accordion summaries from long text, Markdown, GPT outputs, and document notes.",
+  "author": {
+    "name": "Honami Iwatsuki"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "カードサマリ",
+    "shortDescription": "長文やMarkdownをカード型アコーディオンHTMLに整理します。",
+    "longDescription": "カードサマリは、長いGPT出力、Markdown、設計文書、PRFAQ、判例集などを、読みやすいカード型アコーディオンHTMLへ再構成するCodexプラグインです。タイトル、要約、要点、扱い方、フィルタ、軽いグラレコ風ミニフローを含む単体HTMLを作成できます。",
+    "developerName": "Honami Iwatsuki",
+    "category": "Productivity",
+    "capabilities": [
+      "document_generation",
+      "summarization"
+    ],
+    "defaultPrompt": "この資料をカード型アコーディオンサマリにして"
+  }
+}

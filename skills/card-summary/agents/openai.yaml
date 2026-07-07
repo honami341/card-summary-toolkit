@@ -1,0 +1,4 @@
+interface:
+  display_name: "カードサマリ"
+  short_description: "長文やMarkdownをカード型アコーディオンHTMLに整理"
+  default_prompt: "この資料をカード型アコーディオンサマリにして"
