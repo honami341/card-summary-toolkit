@@ -1,0 +1,10 @@
+{
+  "name": "card-summary-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-plugin-skill.mjs",
+    "check": "node scripts/check-template.mjs"
+  }
+}
